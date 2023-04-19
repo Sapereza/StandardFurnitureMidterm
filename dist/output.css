@@ -986,6 +986,10 @@ video {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
+.visited\:text-amber-950:visited {
+  color: rgb(69 26 3 );
+}
+
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
