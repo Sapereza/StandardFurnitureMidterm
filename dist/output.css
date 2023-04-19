@@ -807,6 +807,10 @@ video {
   width: 24rem;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .columns-3 {
   -moz-columns: 3;
        columns: 3;
@@ -1056,6 +1060,16 @@ video {
 
 .visited\:text-amber-950:visited {
   color: rgb(69 26 3 );
+}
+
+.hover\:bg-amber-200:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 230 138 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-amber-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 211 77 / var(--tw-bg-opacity));
 }
 
 .hover\:underline:hover {
